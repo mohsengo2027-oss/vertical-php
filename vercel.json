@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "vertical js file",
+  "rewrites": [
+  { "source": "/(.*)", "destination": "/api/look/index" }
+  ],
+  "trailingSlash": false
+}
