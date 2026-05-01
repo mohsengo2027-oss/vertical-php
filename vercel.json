@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "vertical php file",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/look/index" }
+  ],
+  "trailingSlash": false
+}
