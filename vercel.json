@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "vertical js file",
+  "functions": {
+    "look/**/*.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/look/index" }
+  ],
+  "trailingSlash": false
+}
